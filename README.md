@@ -1,2 +1,2 @@
-# AURELIE
+# AURÉLIE - Alta Joalheria
 

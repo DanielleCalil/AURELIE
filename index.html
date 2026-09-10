@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AURÉLIE — Alta Joalheria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="announce">
+      FRETE GRÁTIS EM TODO O BRASIL &nbsp;·&nbsp; PARCELE EM ATÉ 10X SEM JUROS
+      &nbsp;·&nbsp; EMBALAGEM PARA PRESENTE INCLUSA
+    </div>
+    <header class="site-header">
+      <details class="mobile-menu">
+        <summary aria-label="Abrir menu">
+          <span class="burger"></span>
+        </summary>
+        <nav class="mobile-nav">
+          <a href="#colecoes">Coleções</a>
+          <a href="#bestsellers">Anéis</a>
+          <a href="#bestsellers">Colares</a>
+          <a href="#bestsellers">Brincos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#newsletter">Contato</a>
+        </nav>
+      </details>
+      <nav class="main-nav">
+        <a href="#colecoes">Coleções</a>
+        <a href="#bestsellers">Novidades</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <a href="#" class="logo">AURÉLIE</a>
+      <div class="header-icons">
+        <button class="icon-btn" aria-label="Buscar">
+          <i class="bi bi-search" aria-hidden="true"></i>
+        </button>
+        <button class="icon-btn" aria-label="Conta">
+          <i class="bi bi-person" aria-hidden="true"></i>
+        </button>
+        <button class="icon-btn" aria-label="Sacola">
+          <i class="bi bi-bag" aria-hidden="true"></i>
+          <span class="badge">0</span>
+        </button>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Coleção Primavera 2026</p>
+        <h1>A elegância<br /><em>que atravessa</em><br />o tempo.</h1>
+        <p class="hero-sub">
+          Peças em prata 925 legítima, lapidadas à mão para durar gerações.
+        </p>
+        <a href="#bestsellers" class="btn btn-outline">Explorar coleção</a>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo">
+          <img
+            src="img/img-dashboard.jpg"
+            alt="Anel em prata com pedra central, dentro de um baú de joias"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="categorias" id="colecoes">
+      <h2 class="section-title">Nossas Coleções</h2>
+      <div class="cat-grid">
+        <a href="#" class="cat-card">
+          <span class="cat-icon">
+            <img
+              src="https://www.svgrepo.com/show/250335/diamond-ring-jewelry.svg"
+              alt="Ícone de anel"
+            />
+          </span>
+          <span class="cat-name">Anéis</span>
+        </a>
+        <a href="#" class="cat-card">
+          <span class="cat-icon">
+            <img
+              src="https://www.svgrepo.com/show/250329/necklace-jewel.svg"
+              alt="Ícone de colar"
+            />
+          </span>
+          <span class="cat-name">Colares</span>
+        </a>
+        <a href="#" class="cat-card">
+          <span class="cat-icon">
+            <img
+              src="https://www.svgrepo.com/show/250342/earrings-jewel.svg"
+              alt="Ícone de brinco"
+            />
+          </span>
+          <span class="cat-name">Brincos</span>
+        </a>
+        <a href="#" class="cat-card">
+          <span class="cat-icon">
+            <img
+              src="https://www.svgrepo.com/show/250336/bracelet.svg"
+              alt="Ícone de pulseira"
+            />
+          </span>
+          <span class="cat-name">Pulseiras</span>
+        </a>
+      </div>
+    </section>
+    <section class="bestsellers" id="bestsellers">
+      <h2 class="section-title">Mais Desejados</h2>
+      <p class="section-sub">As peças favoritas desta estação</p>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-media">
+            <img
+              src="img/anel-solitario-lumiere.jpg"
+              alt="Anel solitário em prata sobre fundo branco"
+            />
+            <span class="tag">Novo</span>
+          </div>
+          <h3>Anel Solitário Lumière</h3>
+          <p class="price">R$ 2.480</p>
+          <button class="btn-add">Adicionar à sacola</button>
+        </article>
+        <article class="product-card">
+          <div class="product-media">
+            <img
+              src="img/colar-ponto-de-luz.jpg"
+              alt="Colar com pingente de coração em prata sobre fundo branco"
+            />
+          </div>
+          <h3>Colar Ponto de Luz</h3>
+          <p class="price">R$ 3.150</p>
+          <button class="btn-add">Adicionar à sacola</button>
+        </article>
+        <article class="product-card">
+          <div class="product-media">
+            <img
+              src="img/brinco-quadrado-cristallo.jpg"
+              alt="Brincos quadrados em prata com pedras em formato de quadrado, sobre fundo branco"
+            />
+            <span class="tag">Best-seller</span>
+          </div>
+          <h3>Brinco Quadrado Cristallo</h3>
+          <p class="price">R$ 1.890</p>
+          <button class="btn-add">Adicionar à sacola</button>
+        </article>
+        <article class="product-card">
+          <div class="product-media">
+            <img
+              src="img/pulseira-cruz.jpg"
+              alt="Pulseira em prata cravejada em formato de cruz, sobre fundo branco"
+            />
+          </div>
+          <h3>Pulseira Cruz</h3>
+          <p class="price">R$ 2.760</p>
+          <button class="btn-add">Adicionar à sacola</button>
+        </article>
+        <article class="product-card">
+          <div class="product-media">
+            <img
+              src="img/anel-duo-infini.jpg"
+              alt="Par de anéis em prata, aliança e solitário, sobre fundo branco"
+            />
+          </div>
+          <h3>Anel Duo Infini</h3>
+          <p class="price">R$ 2.120</p>
+          <button class="btn-add">Adicionar à sacola</button>
+        </article>
+        <article class="product-card">
+          <div class="product-media">
+            <img
+              src="img/brinco-etoile.jpg"
+              alt="Brincos halo em prata cravejados, sobre fundo branco"
+            />
+            <span class="tag">Novo</span>
+          </div>
+          <h3>Brinco Étoile</h3>
+          <p class="price">R$ 3.590</p>
+          <button class="btn-add">Adicionar à sacola</button>
+        </article>
+      </div>
+    </section>
+    <section class="sobre" id="sobre">
+      <div class="sobre-visual" aria-hidden="true">
+        <div class="sobre-shape">
+          <img src="img/anel-unic.jpg" alt="anel único feito sob medida" />
+        </div>
+      </div>
+      <div class="sobre-content">
+        <p class="quote">
+          &ldquo;Cada peça é lapidada à mão para durar gerações.&rdquo;
+        </p>
+        <p class="sobre-text">
+          Desde 2010, a AURÉLIE seleciona pedras raras e prata de origem
+          responsável para criar joias atemporais. Nosso ateliê trabalha com
+          joalheiros artesãos que dedicam, em média, 40 horas a cada peça — um
+          compromisso com a precisão e a durabilidade que se recusa a seguir
+          modismos.
+        </p>
+        <a href="#" class="btn btn-text">Conheça nossa história →</a>
+      </div>
+    </section>
+    <section class="valores">
+      <div class="valor-item">
+        <i class="bi bi-truck" aria-hidden="true"></i>
+        <p>Frete grátis<br /><span>Todo o Brasil</span></p>
+      </div>
+      <div class="valor-item">
+        <i class="bi bi-shield-check" aria-hidden="true"></i>
+        <p>Garantia vitalícia<br /><span>Em todas as peças</span></p>
+      </div>
+      <div class="valor-item">
+        <i class="bi bi-gift" aria-hidden="true"></i>
+        <p>Embalagem exclusiva<br /><span>Pronta para presente</span></p>
+      </div>
+      <div class="valor-item">
+        <i class="bi bi-credit-card" aria-hidden="true"></i>
+        <p>Até 10x sem juros<br /><span>No cartão</span></p>
+      </div>
+    </section>
+    <section class="newsletter" id="newsletter">
+      <h2>Faça parte do nosso universo</h2>
+      <p>
+        Receba em primeira mão nossos lançamentos e convites para eventos
+        exclusivos.
+      </p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Seu melhor e-mail" required />
+        <button type="submit">Assinar</button>
+      </form>
+    </section>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-col brand">
+          <p class="logo">AURÉLIE</p>
+          <p>Alta joalheria autoral, feita à mão desde 2010.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">
+              <i class="bi bi-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="#" aria-label="Pinterest">
+              <i class="bi bi-pinterest" aria-hidden="true"></i>
+            </a>
+            <a href="#" aria-label="WhatsApp">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Coleções</h4>
+          <a href="#">Anéis</a>
+          <a href="#">Colares</a>
+          <a href="#">Brincos</a>
+          <a href="#">Pulseiras</a>
+        </div>
+        <div class="footer-col">
+          <h4>Ajuda</h4>
+          <a href="#">Trocas e devoluções</a>
+          <a href="#">Guia de tamanhos</a>
+          <a href="#">Cuidados com a joia</a>
+          <a href="#">Fale conosco</a>
+        </div>
+        <div class="footer-col">
+          <h4>A Maison</h4>
+          <a href="#">Nossa história</a>
+          <a href="#">Sustentabilidade</a>
+          <a href="#">Lojas físicas</a>
+          <a href="#">Trabalhe conosco</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AURÉLIE Joalheria. Pamda — todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
